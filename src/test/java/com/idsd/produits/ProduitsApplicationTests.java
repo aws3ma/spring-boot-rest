@@ -23,12 +23,12 @@ class ProduitsApplicationTests {
 	}
 	@Test
 	public void testFindProduit() {
-		Produit p = produitRepository.findById(1L).get();
+		Produit p = produitRepository.findById(2L).get();
 		System.out.println(p);
 	}
 	@Test
 	public void testUpdateProduit() {
-		Produit p = produitRepository.findById(1L).get();
+		Produit p = produitRepository.findById(2L).get();
 		p.setPrixProduit(1000.0);
 		produitRepository.save(p);
 	}
