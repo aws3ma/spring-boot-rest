@@ -1,0 +1,170 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "spring",
+    "dateExported": "2023-05-12T14:33:41.244Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "bd350455-5e63-42e1-9713-d9c7ac405cbf",
+            "colId": "e427e7ad-190b-4c6e-a59b-28b0bf0f41c1",
+            "containerId": "",
+            "name": "http://localhost:8080/produits/rest",
+            "url": "http://localhost:8080/produits/rest",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-05-11T10:46:42.165Z",
+            "modified": "2023-05-11T10:46:42.165Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "74844f58-e94b-4e48-8666-45b261228985",
+            "colId": "e427e7ad-190b-4c6e-a59b-28b0bf0f41c1",
+            "containerId": "",
+            "name": "http://localhost:8080/produits/api/2",
+            "url": "http://localhost:8080/produits/api/2",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-05-11T10:47:14.378Z",
+            "modified": "2023-05-11T10:47:14.378Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "10bc42b1-bd50-492b-8bb6-444442c439ae",
+            "colId": "e427e7ad-190b-4c6e-a59b-28b0bf0f41c1",
+            "containerId": "",
+            "name": "http://localhost:8080/produits/rest?size=2&page=0",
+            "url": "http://localhost:8080/produits/rest?size=2&page=0",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-05-11T10:47:44.735Z",
+            "modified": "2023-05-11T10:47:44.735Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "size",
+                    "value": "2",
+                    "isPath": false
+                },
+                {
+                    "name": "page",
+                    "value": "0",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "b9876cba-7270-47dd-a9ab-26ca12bdeb72",
+            "colId": "e427e7ad-190b-4c6e-a59b-28b0bf0f41c1",
+            "containerId": "",
+            "name": "http://localhost:8080/produits/rest?size=2&page=1",
+            "url": "http://localhost:8080/produits/rest?size=2&page=1",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-05-11T10:49:42.780Z",
+            "modified": "2023-05-11T10:49:42.780Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "size",
+                    "value": "2",
+                    "isPath": false
+                },
+                {
+                    "name": "page",
+                    "value": "1",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "c1801900-7829-4b7e-8bb4-fcefebc28dbe",
+            "colId": "e427e7ad-190b-4c6e-a59b-28b0bf0f41c1",
+            "containerId": "",
+            "name": "http://localhost:8080/produits/rest?size=2&page=0&sort=prixProduit,desc",
+            "url": "http://localhost:8080/produits/rest?size=2&page=0&sort=prixProduit,desc",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2023-05-11T10:50:32.401Z",
+            "modified": "2023-05-11T10:50:32.401Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "size",
+                    "value": "2",
+                    "isPath": false
+                },
+                {
+                    "name": "page",
+                    "value": "0",
+                    "isPath": false
+                },
+                {
+                    "name": "sort",
+                    "value": "prixProduit,desc",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "40ddd2cb-3da5-49a9-8965-be42a536fada",
+            "colId": "e427e7ad-190b-4c6e-a59b-28b0bf0f41c1",
+            "containerId": "",
+            "name": "http://localhost:8080/produits/rest/search/findByCategorieIdCat?id=3",
+            "url": "http://localhost:8080/produits/rest/search/findByCategorieIdCat?id=3",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2023-05-11T10:52:23.518Z",
+            "modified": "2023-05-11T10:52:23.518Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "id",
+                    "value": "3",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "5532508c-fb60-4de2-859b-6f7cef4a4f37",
+            "colId": "e427e7ad-190b-4c6e-a59b-28b0bf0f41c1",
+            "containerId": "",
+            "name": "http://localhost:8080/produits/rest",
+            "url": "http://localhost:8080/produits/rest",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2023-05-11T10:54:24.104Z",
+            "modified": "2023-05-11T10:54:24.104Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nomProduit\":\"Nokia 3310\",\n  \"prixProduit\":80\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "a7679e8a-f910-4412-829d-742e38bc51a2",
+            "colId": "e427e7ad-190b-4c6e-a59b-28b0bf0f41c1",
+            "containerId": "",
+            "name": "http://localhost:8080/produits/rest/search",
+            "url": "http://localhost:8080/produits/rest/search",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2023-05-11T10:55:46.419Z",
+            "modified": "2023-05-11T10:55:46.419Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
